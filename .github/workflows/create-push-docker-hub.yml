@@ -18,6 +18,6 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: DockerFolder/
+          context: ./
           push: true
-          tags: ngonsokmean/cigitdocker:latest
+          tags: ngonsokmean/final-exam-broblem5:latest
