@@ -15,9 +15,7 @@ app.post('/add', (req, res) => {
         id: data.length + 1,
         name: req.body.name
     };
-
     data.push(newItem);
-
     res.json(data);
 });
 
